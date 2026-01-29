@@ -1,97 +1,66 @@
-# Secure Image Vault
+Mobile Application for Image Encryption and Decryption Using AES and XChaCha20
+Project Overview
 
-A secure mobile application for encrypting and decrypting images using AES or XChaCha20 encryption methods. Built with Flutter for Android.
+Mobile Application for Image Encryption and Decryption Using AES and XChaCha20 is an Android-based mobile application developed as a Final Year Project (FYP). This application is designed to protect sensitive images by applying strong symmetric encryption techniques before the images are stored on the mobile device.
 
-## Features
+The application implements AES-256 and XChaCha20 encryption algorithms to ensure data confidentiality and prevent unauthorized access. It is developed using Flutter and follows secure mobile application development practices aligned with the OWASP Mobile Top 10 guidelines.
 
-- User registration with strong password policy
-- Secure login with OTP verification
-- Image encryption using AES or XChaCha20
-- Image decryption with password protection
-- Modern and user-friendly interface
-- Secure storage of encrypted images
+Objectives
 
-## Getting Started
+To develop a secure mobile application for image encryption and decryption
 
-### Prerequisites
+To implement AES and XChaCha20 symmetric encryption algorithms
 
-- Flutter SDK (>=3.0.0)
-- Android Studio / VS Code
-- Android device or emulator
+To protect sensitive image data stored on mobile devices
 
-### Installation
+To apply secure authentication mechanisms such as OTP verification
 
-1. Clone the repository:
-```bash
-git clone https://github.com/yourusername/secure-image-vault.git
-cd secure-image-vault
-```
+To reduce the risk of unauthorized access through login attempt limitation
 
-2. Install dependencies:
-```bash
-flutter pub get
-```
+Key Features
 
-3. Run the app:
-```bash
-flutter run
-```
+User registration with strong password policy
 
-## Usage
+Secure login with OTP-based two-factor authentication (2FA)
 
-### Registration
-1. Launch the app
-2. Tap "Register"
-3. Enter your username, email, and password
-4. Follow the password requirements:
-   - Minimum 8 characters
-   - At least one uppercase letter
-   - At least one lowercase letter
-   - At least one number
-   - At least one special character (!@#$%^&*)
-5. Verify your email with the OTP sent
+Image encryption using AES-256 or XChaCha20
 
-### Login
-1. Enter your username and password
-2. Enter the OTP sent to your email
-3. After 3 failed attempts, you'll be locked out for 5 minutes
+Password-protected image decryption
 
-### Encrypting Images
-1. From the home screen, tap "Encrypt Image"
-2. Select an encryption method (AES or XChaCha20)
-3. Choose an image from your gallery
-4. Enter an encryption password
-5. Tap "Encrypt"
+Account lockout after multiple failed login attempts
 
-### Decrypting Images
-1. From the home screen, tap "Decrypt Image"
-2. Select an encrypted image from the list
-3. Enter the decryption password
-4. View the decrypted image
+Secure local storage of encrypted images
 
-## Security Features
+User-friendly and modern mobile interface
 
-- Strong password policy enforcement
-- OTP-based authentication
-- Account lockout after failed attempts
-- Secure storage of encrypted images
-- Password visibility toggle
-- Real-time password strength meter
+Technology Stack
 
-## Contributing
+Framework: Flutter
 
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
+Programming Language: Dart
 
-## License
+Platform: Android
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+Encryption Algorithms:
 
-## Acknowledgments
+AES-256
 
-- Flutter team for the amazing framework
-- Crypto package for encryption algorithms
-- Image Picker package for image selection
+XChaCha20
+
+Security Standard: OWASP Mobile Top 10
+
+License
+
+This project is developed for academic purposes as part of a Final Year Project.
+
+Kalau kau nak:
+
+🔹 tukar semua ayat ikut diploma-level English
+
+🔹 align exact wording ikut tajuk pensyarah
+
+🔹 pecahkan jadi Chapter 1 / Chapter 2
+
+🔹 buat versi journal paper
+
+cakap je, aku settlekan 🔥
