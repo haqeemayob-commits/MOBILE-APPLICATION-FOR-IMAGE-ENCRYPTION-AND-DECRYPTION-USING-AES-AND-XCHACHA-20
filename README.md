@@ -51,16 +51,4 @@ Security Standard: OWASP Mobile Top 10
 
 License
 
-This project is developed for academic purposes as part of a Final Year Project.
 
-Kalau kau nak:
-
-🔹 tukar semua ayat ikut diploma-level English
-
-🔹 align exact wording ikut tajuk pensyarah
-
-🔹 pecahkan jadi Chapter 1 / Chapter 2
-
-🔹 buat versi journal paper
-
-cakap je, aku settlekan 🔥
